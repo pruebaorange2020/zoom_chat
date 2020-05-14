@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "chat de medicos y usuarios",
   "main": "index.js",
-  "start": "node index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node index.js"
   },
   "author": "morangesoft",
   "license": "ISC",
@@ -13,7 +14,7 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "pg": "^8.0.2",
+    "pg": "^8.2.0",
     "request": "^2.88.2"
   }
 }
